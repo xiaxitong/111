@@ -31,6 +31,7 @@ void DisplayInfo(double d) {
 	cout << "输入双精度数的值：" << endl;
 	cin >> d;
 	int a_d;
+
 	a_d = fabs(d);
 	cout << a_d << endl;
 }
